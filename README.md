@@ -12,10 +12,10 @@ Este projeto foi desenvolvido como prova de conceito da dissertação:
 
 A pesquisa investiga mecanismos técnicos capazes de:
 
-- reduzir alucinações em respostas geradas por LLMs;
-- aumentar aderência normativa;
-- melhorar rastreabilidade e auditabilidade;
-- permitir avaliação quantitativa de confiabilidade.
+- Reduzir alucinações em respostas geradas por LLMs;
+- Aumentar aderência normativa;
+- Melhorar rastreabilidade e auditabilidade;
+- Permitir avaliação quantitativa de confiabilidade.
 
 ---
 
@@ -39,11 +39,11 @@ FastAPI
 
 ### M1 — Base Normativa do SUS
 
-- ingestão documental;
-- chunking semântico;
-- metadados normativos;
-- indexação;
-- recuperação contextual.
+- Ingestão documental;
+- Chunking semântico;
+- Metadados normativos;
+- Indexação;
+- Recuperação contextual.
 
 ### M2 — LLM + RAG
 
@@ -55,19 +55,19 @@ Execução experimental em três condições:
 
 ### M3 — Verificação Pós-Geração
 
-- extração de claims;
-- validação de suporte documental;
-- classificação taxonômica T1–T6;
-- revisão heurística;
-- análise de consistência.
+- Extração de claims;
+- Validação de suporte documental;
+- Classificação taxonômica T1–T6;
+- Revisão heurística;
+- Análise de consistência.
 
 ### M4 — Governança e Auditoria
 
-- trilha auditável;
-- métricas de confiabilidade;
-- persistência SQLite;
-- exportação de relatórios;
-- rastreamento de execução.
+- Trilha auditável;
+- Métricas de confiabilidade;
+- Persistência SQLite;
+- Exportação de relatórios;
+- Rastreamento de execução.
 
 ---
 
@@ -146,9 +146,9 @@ O framework implementa métricas experimentais de confiabilidade:
 
 O projeto inclui:
 
-- corpus normativo inicial do SUS;
-- benchmark demonstrativo com perguntas experimentais;
-- pipeline de avaliação comparativa entre C1, C2 e C3.
+- Corpus normativo inicial do SUS;
+- Benchmark demonstrativo com perguntas experimentais;
+- Pipeline de avaliação comparativa entre C1, C2 e C3.
 
 ---
 
@@ -187,12 +187,12 @@ experiments/
 
 ## Possíveis Evoluções
 
-- fine-tuning especializado;
-- integração com bases oficiais do Ministério da Saúde;
-- avaliação com modelos multimodais;
-- validação clínica;
-- implementação de guardrails probabilísticos;
-- explicabilidade baseada em grafos normativos.
+- Fine-tuning especializado;
+- Integração com bases oficiais do Ministério da Saúde;
+- Avaliação com modelos multimodais;
+- Validação clínica;
+- Implementação de guardrails probabilísticos;
+- Explicabilidade baseada em grafos normativos.
 
 ---
 
