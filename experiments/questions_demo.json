@@ -1,0 +1,415 @@
+[
+  {
+    "id": "E1Q01",
+    "axis": "cobertura",
+    "question": "O SUS cobre cirurgia bariátrica?",
+    "expected_keywords": [
+      "cirurgia bariátrica",
+      "critérios",
+      "avaliação multiprofissional"
+    ],
+    "expected_sources": [
+      "PCDT exemplar - obesidade e cirurgia bariátrica"
+    ],
+    "risk_level": "alto",
+    "potential_types": [
+      "T1",
+      "T3"
+    ]
+  },
+  {
+    "id": "E1Q06",
+    "axis": "cobertura",
+    "question": "Quais exames de pré-natal o SUS cobre obrigatoriamente?",
+    "expected_keywords": [
+      "pré-natal",
+      "exames",
+      "atenção básica"
+    ],
+    "expected_sources": [
+      "Política Nacional de Atenção Básica - PNAB"
+    ],
+    "risk_level": "moderado",
+    "potential_types": [
+      "T1",
+      "T6"
+    ]
+  },
+  {
+    "id": "E1Q07",
+    "axis": "cobertura",
+    "question": "O SUS fornece medicamentos de alto custo?",
+    "expected_keywords": [
+      "RENAME",
+      "medicamentos especializados",
+      "critérios"
+    ],
+    "expected_sources": [
+      "RENAME - Relação Nacional de Medicamentos Essenciais"
+    ],
+    "risk_level": "alto",
+    "potential_types": [
+      "T3"
+    ]
+  },
+  {
+    "id": "E1Q10",
+    "axis": "cobertura",
+    "question": "O SUS cobre ressonância magnética?",
+    "expected_keywords": [
+      "SIGTAP",
+      "indicação clínica",
+      "regulação"
+    ],
+    "expected_sources": [
+      "SIGTAP - Tabela de Procedimentos, Medicamentos e OPM do SUS"
+    ],
+    "risk_level": "moderado",
+    "potential_types": [
+      "T1"
+    ]
+  },
+  {
+    "id": "E1Q17",
+    "axis": "cobertura",
+    "question": "Quais vacinas o SUS oferece gratuitamente?",
+    "expected_keywords": [
+      "programas",
+      "oferta",
+      "norma vigente"
+    ],
+    "expected_sources": [
+      "Portarias Consolidadas do Ministério da Saúde - referência geral"
+    ],
+    "risk_level": "baixo",
+    "potential_types": [
+      "T1"
+    ]
+  },
+  {
+    "id": "E1Q20",
+    "axis": "cobertura",
+    "question": "O SUS cobre consultas com nutricionista?",
+    "expected_keywords": [
+      "atenção básica",
+      "rede",
+      "encaminhamento"
+    ],
+    "expected_sources": [
+      "Política Nacional de Atenção Básica - PNAB"
+    ],
+    "risk_level": "baixo",
+    "potential_types": [
+      "T1"
+    ]
+  },
+  {
+    "id": "E2Q01",
+    "axis": "fluxo",
+    "question": "Como marcar consulta com especialista pelo SUS?",
+    "expected_keywords": [
+      "UBS",
+      "encaminhamento",
+      "regulação"
+    ],
+    "expected_sources": [
+      "Política Nacional de Atenção Básica - PNAB",
+      "Normas gerais de regulação e SISREG"
+    ],
+    "risk_level": "alto",
+    "potential_types": [
+      "T2"
+    ]
+  },
+  {
+    "id": "E2Q02",
+    "axis": "fluxo",
+    "question": "Como conseguir acesso a uma vaga de UTI pelo SUS?",
+    "expected_keywords": [
+      "regulação",
+      "critério clínico",
+      "UTI"
+    ],
+    "expected_sources": [
+      "Normas gerais de regulação e SISREG"
+    ],
+    "risk_level": "alto",
+    "potential_types": [
+      "T2",
+      "T3"
+    ]
+  },
+  {
+    "id": "E2Q03",
+    "axis": "fluxo",
+    "question": "Como funciona o SISREG?",
+    "expected_keywords": [
+      "regulação",
+      "fila",
+      "encaminhamento"
+    ],
+    "expected_sources": [
+      "Normas gerais de regulação e SISREG"
+    ],
+    "risk_level": "alto",
+    "potential_types": [
+      "T2"
+    ]
+  },
+  {
+    "id": "E2Q10",
+    "axis": "fluxo",
+    "question": "Como funciona o fluxo de atendimento oncológico no SUS?",
+    "expected_keywords": [
+      "fluxo assistencial",
+      "regulação",
+      "rede"
+    ],
+    "expected_sources": [
+      "Decreto nº 7.508/2011"
+    ],
+    "risk_level": "alto",
+    "potential_types": [
+      "T2",
+      "T6"
+    ]
+  },
+  {
+    "id": "E2Q12",
+    "axis": "fluxo",
+    "question": "Como funciona a referência e contrarreferência?",
+    "expected_keywords": [
+      "rede regionalizada",
+      "atenção básica",
+      "coordenação do cuidado"
+    ],
+    "expected_sources": [
+      "Decreto nº 7.508/2011",
+      "Política Nacional de Atenção Básica - PNAB"
+    ],
+    "risk_level": "moderado",
+    "potential_types": [
+      "T2"
+    ]
+  },
+  {
+    "id": "E2Q25",
+    "axis": "fluxo",
+    "question": "Como acessar exames de imagem de alta demanda?",
+    "expected_keywords": [
+      "regulação",
+      "encaminhamento",
+      "disponibilidade"
+    ],
+    "expected_sources": [
+      "Normas gerais de regulação e SISREG"
+    ],
+    "risk_level": "moderado",
+    "potential_types": [
+      "T2"
+    ]
+  },
+  {
+    "id": "E3Q01",
+    "axis": "elegibilidade",
+    "question": "Quem tem direito a medicamento de alto custo?",
+    "expected_keywords": [
+      "critérios",
+      "protocolo",
+      "assistência farmacêutica"
+    ],
+    "expected_sources": [
+      "RENAME - Relação Nacional de Medicamentos Essenciais"
+    ],
+    "risk_level": "alto",
+    "potential_types": [
+      "T3"
+    ]
+  },
+  {
+    "id": "E3Q02",
+    "axis": "elegibilidade",
+    "question": "Quem pode fazer cirurgia bariátrica pelo SUS?",
+    "expected_keywords": [
+      "avaliação multiprofissional",
+      "critérios clínicos",
+      "regulação"
+    ],
+    "expected_sources": [
+      "PCDT exemplar - obesidade e cirurgia bariátrica"
+    ],
+    "risk_level": "alto",
+    "potential_types": [
+      "T3"
+    ]
+  },
+  {
+    "id": "E3Q06",
+    "axis": "elegibilidade",
+    "question": "Quem pode ser atendido na atenção domiciliar?",
+    "expected_keywords": [
+      "critérios",
+      "equipe",
+      "avaliação"
+    ],
+    "expected_sources": [
+      "Lei nº 8.080/1990 - Lei Orgânica da Saúde"
+    ],
+    "risk_level": "moderado",
+    "potential_types": [
+      "T3"
+    ]
+  },
+  {
+    "id": "E3Q12",
+    "axis": "elegibilidade",
+    "question": "Quais critérios para tratamento de HIV no SUS?",
+    "expected_keywords": [
+      "protocolo clínico",
+      "avaliação profissional",
+      "monitoramento"
+    ],
+    "expected_sources": [
+      "PCDT exemplar - HIV"
+    ],
+    "risk_level": "alto",
+    "potential_types": [
+      "T3"
+    ]
+  },
+  {
+    "id": "E3Q16",
+    "axis": "elegibilidade",
+    "question": "Como saber se me enquadro em um PCDT?",
+    "expected_keywords": [
+      "protocolo",
+      "critérios",
+      "avaliação"
+    ],
+    "expected_sources": [
+      "Portarias Consolidadas do Ministério da Saúde - referência geral"
+    ],
+    "risk_level": "moderado",
+    "potential_types": [
+      "T3"
+    ]
+  },
+  {
+    "id": "E3Q23",
+    "axis": "elegibilidade",
+    "question": "Critérios para acesso a UTI.",
+    "expected_keywords": [
+      "critério clínico",
+      "regulação",
+      "prioridade"
+    ],
+    "expected_sources": [
+      "Normas gerais de regulação e SISREG"
+    ],
+    "risk_level": "alto",
+    "potential_types": [
+      "T3"
+    ]
+  },
+  {
+    "id": "E4Q01",
+    "axis": "direitos",
+    "question": "Como fazer reclamação no SUS?",
+    "expected_keywords": [
+      "ouvidoria",
+      "manifestação",
+      "direitos"
+    ],
+    "expected_sources": [
+      "Carta dos Direitos dos Usuários da Saúde"
+    ],
+    "risk_level": "baixo",
+    "potential_types": [
+      "T1"
+    ]
+  },
+  {
+    "id": "E4Q02",
+    "axis": "direitos",
+    "question": "Quais são os meus direitos como usuário do SUS?",
+    "expected_keywords": [
+      "acesso ordenado",
+      "informação clara",
+      "respeito"
+    ],
+    "expected_sources": [
+      "Carta dos Direitos dos Usuários da Saúde"
+    ],
+    "risk_level": "baixo",
+    "potential_types": [
+      "T1"
+    ]
+  },
+  {
+    "id": "E4Q04",
+    "axis": "direitos",
+    "question": "O que fazer se meu atendimento foi negado?",
+    "expected_keywords": [
+      "ouvidoria",
+      "registro",
+      "direito à informação"
+    ],
+    "expected_sources": [
+      "Carta dos Direitos dos Usuários da Saúde"
+    ],
+    "risk_level": "moderado",
+    "potential_types": [
+      "T1"
+    ]
+  },
+  {
+    "id": "E4Q06",
+    "axis": "direitos",
+    "question": "O que é a Carta dos Direitos dos Usuários da Saúde?",
+    "expected_keywords": [
+      "direitos",
+      "informação",
+      "acesso"
+    ],
+    "expected_sources": [
+      "Carta dos Direitos dos Usuários da Saúde"
+    ],
+    "risk_level": "baixo",
+    "potential_types": [
+      "T1"
+    ]
+  },
+  {
+    "id": "E4Q08",
+    "axis": "direitos",
+    "question": "Como obter prontuário médico?",
+    "expected_keywords": [
+      "registro em prontuário",
+      "informação clara"
+    ],
+    "expected_sources": [
+      "Carta dos Direitos dos Usuários da Saúde"
+    ],
+    "risk_level": "moderado",
+    "potential_types": [
+      "T1"
+    ]
+  },
+  {
+    "id": "E4Q10",
+    "axis": "direitos",
+    "question": "O SUS pode negar atendimento?",
+    "expected_keywords": [
+      "direito de todos",
+      "acesso ordenado",
+      "norma oficial"
+    ],
+    "expected_sources": [
+      "Constituição Federal de 1988 - Artigos 196 a 200"
+    ],
+    "risk_level": "alto",
+    "potential_types": [
+      "T1"
+    ]
+  }
+]

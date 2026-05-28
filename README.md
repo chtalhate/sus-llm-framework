@@ -1,242 +1,103 @@
-# SUS LLM Framework
-Framework experimental para mitigação de alucinações e conformidade normativa em modelos de linguagem (LLMs) aplicados ao Sistema Único de Saúde (SUS).
-O projeto implementa um pipeline completo de recuperação normativa, geração assistida por contexto (RAG), verificação pós-geração e governança auditável para avaliação de confiabilidade em sistemas de IA generativa voltados ao domínio regulatório da saúde pública.
+# SUS Guardrails POC
 
----
+POC em Python + Docker para demonstrar, na defesa, o framework da dissertação: mitigação de alucinações em LLMs aplicados às normativas do SUS.
 
-## Objetivo
+O projeto implementa os quatro módulos descritos na dissertação:
+- **M1 — Base normativa do SUS**: ingestão, segmentação, metadados e recuperação.
+- **M2 — LLM + RAG**: execução das condições **C1**, **C2** e **C3**.
+- **M3 — Verificação normativa pós-geração**: extração de afirmações, verificação de suporte, classificação T1–T6 e revisão.
+- **M4 — Governança e auditoria**: trilha E1–E6, métricas TA/AN/SM/F1/IG, logs e exportação.
 
-Este projeto foi desenvolvido como prova de conceito da dissertação:
-
-> **“Confiabilidade de LLMs no SUS: framework para mitigação de alucinações e conformidade normativa.”**
-> 
-A pesquisa investiga mecanismos técnicos capazes de:
-
-- Reduzir alucinações em respostas geradas por LLMs;
-- Aumentar aderência normativa;
-- Melhorar rastreabilidade e auditabilidade;
-- Permitir avaliação quantitativa de confiabilidade.
->
-Dissertação apresentada ao Programa de Pós-Graduação em Engenharia da Controle e Automação do Instituto Federal do Espirito Santo, como requisito parcial para obtenção do título de Mestre em Engenharia de Controle e Automação na linha de pesquisa de Sistemas Inteligentes.
-
----
-
-## Arquitetura do Framework
+## Arquitetura
 
 ```text
-Usuário
-   ↓
-Streamlit UI
-   ↓
-FastAPI
-   ├── M1 → Base normativa e recuperação
-   ├── M2 → LLM + RAG
-   ├── M3 → Verificação normativa pós-geração
-   └── M4 → Governança e auditoria
+Usuário -> Streamlit -> FastAPI
+                     -> M1: corpus normativo e retriever
+                     -> M2: geração C1/C2/C3 via Ollama
+                     -> M3: verificação normativa e taxonomia
+                     -> M4: auditoria SQLite + relatórios
 ```
 
----
-
-## Módulos Implementados
-
-### M1-Base Normativa do SUS
-
-- Ingestão documental;
-- Chunking semântico;
-- Metadados normativos;
-- Indexação;
-- Recuperação contextual.
-
-### M2-LLM + RAG
-
-Execução experimental em três condições:
-
-- **C1** → LLM puro;
-- **C2** → LLM + recuperação normativa;
-- **C3** → LLM + RAG + verificação normativa.
-
-### M3-Verificação Pós-Geração
-
-- Extração de claims;
-- Validação de suporte documental;
-- Classificação taxonômica T1–T6;
-- Revisão heurística;
-- Análise de consistência.
-
-### M4-Governança e Auditoria
-
-- Trilha auditável;
-- Métricas de confiabilidade;
-- Persistência SQLite;
-- Exportação de relatórios;
-- Rastreamento de execução.
-
----
-
-## Tecnologias Utilizadas
-
+## Stack
 - Python 3.11
 - FastAPI
 - Streamlit
 - SQLite
-- Ollama
-- Docker
-- Docker Compose
-- Qdrant (opcional)
+- Qdrant (opcional; o código possui fallback lexical local para rodar sem dependência vetorial)
+- Ollama (modelo local open-source, ex.: `qwen2.5:7b-instruct`)
+- Docker / Docker Compose
 
----
+## Como subir
 
-## Execução Local
-
-### 1. Clone o repositório
-
-```bash
-git clone https://github.com/seu-usuario/sus-llm-guardrails.git
-cd sus-llm-guardrails
-```
-
-### 2. Configure o ambiente
-
-```bash
-cp .env.example .env
-```
-
-### 3. Suba os containers
+1. Ajuste variáveis em `.env.example` se quiser.
+2. Suba a stack:
 
 ```bash
 docker compose up --build
 ```
 
-### 4. Baixe o modelo local
+3. Baixe o modelo no container do Ollama:
 
 ```bash
 docker exec -it sus-guardrails-ollama ollama pull qwen2.5:7b-instruct
 ```
 
-### 5. Reconstrua o índice
+4. Gere o índice inicial:
 
 ```bash
 curl -X POST http://localhost:8000/ingest/rebuild
 ```
 
----
+5. Acesse:
+- API: http://localhost:8000/docs
+- UI: http://localhost:8501
 
-## Interfaces
+## Modos experimentais
+- **C1**: LLM puro.
+- **C2**: LLM + blocos normativos recuperados.
+- **C3**: LLM + RAG + verificação normativa pós-geração.
 
-| Serviço | URL |
-|---|---|
-| API | http://localhost:8000/docs |
-| UI | http://localhost:8501 |
+## Métricas implementadas
+- **TA** = respostas_alucinadas / respostas_totais
+- **AN** = afirmações_corretas / afirmações_totais
+- **SM** = soma(severidade) / número_de_erros
+- **F1** = 2 × (P × C) / (P + C)
+- **IG** = (AN + (1 − TA) + (1 − SM/3)) / 3
 
----
+## Dataset demonstrável
+O repositório já inclui:
+- corpus inicial curado do SUS em `data/raw/seed_corpus.json`
+- benchmark de 24 perguntas em `experiments/questions_demo.json`
 
-## Métricas de Avaliação
+## Observações importantes
+- O projeto foi preparado para a **defesa offline**, com fallback semântico/lexical e sem dependência obrigatória de serviços externos.
+- Quando o Ollama não estiver disponível, a API retorna uma resposta determinística de fallback, útil para ensaio técnico do pipeline.
+- A verificação normativa é heurística e auditável. Ela demonstra o fluxo científico da dissertação, não substitui validação humana especializada.
 
-O framework implementa métricas experimentais de confiabilidade:
-
-| Métrica | Descrição |
-|---|---|
-| TA | Taxa de alucinação |
-| AN | Aderência normativa |
-| SM | Severidade média |
-| F1 | Precisão e cobertura |
-| IG | Índice global de governança |
-
----
-
-## Dataset Experimental
-
-O projeto inclui:
-
-- Corpus normativo inicial do SUS;
-- Benchmark demonstrativo com perguntas experimentais;
-- Pipeline de avaliação comparativa entre C1, C2 e C3.
-
----
-
-## Estrutura do Projeto
+## Estrutura
 
 ```text
 app/
-  api/
-  core/
-  db/
-  domain/
-  governance/
-  ingestion/
-  llm/
-  metrics/
-  rag/
-  verifier/
-
+  api/             # rotas FastAPI
+  core/            # configuração e constantes
+  domain/          # enums, schemas e modelos
+  ingestion/       # ingestão e chunking
+  rag/             # recuperação e prompts
+  llm/             # cliente Ollama + fallback
+  verifier/        # claims, taxonomia, revisão
+  metrics/         # fórmulas TA/AN/SM/F1/IG
+  governance/      # auditoria e exportação
+  db/              # SQLite
 ui/
   streamlit_app.py
-
 experiments/
   questions_demo.json
 ```
 
----
-
-## Limitações
-
-- O sistema possui finalidade acadêmica e experimental.
-- Não substitui validação jurídica ou médica especializada.
-- A verificação normativa é heurística.
-- O desempenho depende da qualidade documental recuperada.
-
----
-
-## Possíveis Evoluções
-
-- Fine-tuning especializado;
-- Integração com bases oficiais do Ministério da Saúde;
-- Avaliação com modelos multimodais;
-- Validação clínica;
-- Implementação de guardrails probabilísticos;
-- Explicabilidade baseada em grafos normativos.
-
----
-
-## Licença
-
-Este projeto está licenciado sob a licença MIT.
-
-Consulte o arquivo `LICENSE` para mais informações.
-
----
-
-## Autor
-
-**Christiano Talhate**
-
-Pesquisa em:
-- Inteligência Artificial Aplicada
-- Governança de IA
-- LLMs Confiáveis
-- Saúde Digital
-- Sistemas Auditáveis
-
-**Badges:** https://www.credly.com/users/talhate/badges#credly  
-**LinkedIn:** https://www.linkedin.com/in/talhate/  
-**Lattes:** http://lattes.cnpq.br/6335113208830043
-
----
-
-## Tags
-
-```text
-llm
-rag
-healthcare
-sus
-ai-governance
-hallucination-detection
-guardrails
-fastapi
-streamlit
-ollama
-compliance
-artificial-intelligence
-```
-
+## Roteiro de demo sugerido
+1. Rodar a mesma pergunta em C1, C2 e C3.
+2. Mostrar os blocos normativos recuperados.
+3. Exibir afirmações verificadas e tipos T1–T6.
+4. Comparar AN e IG entre as três condições.
+5. Rodar o benchmark das 24 perguntas.
+6. Abrir a trilha de auditoria da última execução.

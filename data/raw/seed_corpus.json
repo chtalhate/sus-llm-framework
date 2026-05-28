@@ -1,0 +1,90 @@
+[
+  {
+    "doc_id": "CF88-196-200",
+    "title": "Constituição Federal de 1988 - Artigos 196 a 200",
+    "source": "Constituição Federal",
+    "category": "direitos e organização",
+    "version": "1.0",
+    "content": "Art. 196: a saúde é direito de todos e dever do Estado, garantido mediante políticas sociais e econômicas.\nArt. 197: são de relevância pública as ações e serviços de saúde, cabendo ao poder público dispor sobre sua regulamentação, fiscalização e controle.\nArt. 198: as ações e serviços públicos de saúde integram uma rede regionalizada e hierarquizada e constituem um sistema único.\nArt. 200: ao SUS compete controlar e fiscalizar procedimentos, produtos e substâncias de interesse para a saúde."
+  },
+  {
+    "doc_id": "LEI-8080",
+    "title": "Lei nº 8.080/1990 - Lei Orgânica da Saúde",
+    "source": "Lei 8.080/1990",
+    "category": "organização do sus",
+    "version": "1.0",
+    "content": "A Lei 8.080 dispõe sobre as condições para promoção, proteção e recuperação da saúde e sobre a organização e o funcionamento dos serviços correspondentes.\nA assistência terapêutica integral, inclusive farmacêutica, está incluída no campo de atuação do SUS.\nO acesso universal e igualitário às ações e serviços de saúde deve observar organização regionalizada e hierarquizada."
+  },
+  {
+    "doc_id": "DEC-7508",
+    "title": "Decreto nº 7.508/2011",
+    "source": "Decreto 7.508/2011",
+    "category": "regulação e acesso",
+    "version": "1.0",
+    "content": "O Decreto 7.508 regulamenta a Lei 8.080 e organiza o planejamento da saúde, a assistência à saúde e a articulação interfederativa.\nO acesso universal, igualitário e ordenado às ações e serviços de saúde se inicia pelas portas de entrada do SUS e se completa na rede regionalizada e hierarquizada.\nA regulação é elemento essencial para organização do acesso a serviços especializados e hospitalares."
+  },
+  {
+    "doc_id": "PNAB-2017",
+    "title": "Política Nacional de Atenção Básica - PNAB",
+    "source": "PNAB",
+    "category": "atenção básica",
+    "version": "1.0",
+    "content": "A Atenção Básica é a principal porta de entrada e centro de comunicação da Rede de Atenção à Saúde.\nA UBS deve coordenar o cuidado e, quando necessário, realizar encaminhamento para atenção especializada.\nA longitudinalidade e a coordenação do cuidado são atributos centrais da atenção básica."
+  },
+  {
+    "doc_id": "CARTA-DIREITOS",
+    "title": "Carta dos Direitos dos Usuários da Saúde",
+    "source": "Carta dos Direitos dos Usuários da Saúde",
+    "category": "direitos do usuário",
+    "version": "1.0",
+    "content": "Todo cidadão tem direito ao acesso ordenado e organizado aos sistemas de saúde.\nO usuário tem direito a informação clara sobre os serviços, tratamento adequado, respeito e registro em prontuário.\nO usuário pode recorrer à ouvidoria e a canais formais de reclamação e manifestação."
+  },
+  {
+    "doc_id": "RENAME-BASE",
+    "title": "RENAME - Relação Nacional de Medicamentos Essenciais",
+    "source": "RENAME",
+    "category": "assistência farmacêutica",
+    "version": "1.0",
+    "content": "A RENAME orienta a seleção de medicamentos ofertados no SUS, observando protocolos, financiamento e organização dos componentes da assistência farmacêutica.\nO fornecimento depende do enquadramento do medicamento e dos critérios clínicos e administrativos aplicáveis.\nMedicamentos especializados costumam exigir critérios definidos em protocolos específicos."
+  },
+  {
+    "doc_id": "SIGTAP-BASE",
+    "title": "SIGTAP - Tabela de Procedimentos, Medicamentos e OPM do SUS",
+    "source": "SIGTAP",
+    "category": "procedimentos e financiamento",
+    "version": "1.0",
+    "content": "O SIGTAP reúne procedimentos, medicamentos, OPM e compatibilidades utilizados para gestão e faturamento no SUS.\nA presença de um procedimento na tabela não elimina a necessidade de indicação clínica, regulação e organização local do acesso.\nA tabela auxilia a identificar cobertura e requisitos operacionais do procedimento."
+  },
+  {
+    "doc_id": "SISREG-BASE",
+    "title": "Normas gerais de regulação e SISREG",
+    "source": "SISREG",
+    "category": "regulação e acesso",
+    "version": "1.0",
+    "content": "O SISREG apoia a regulação do acesso a consultas, exames e internações, conforme protocolos e disponibilidade.\nA inserção na fila regulada depende de encaminhamento clínico adequado e critérios de prioridade.\nLeitos de UTI e outros recursos críticos dependem de avaliação clínica e regulação competente, não de reserva direta pelo usuário."
+  },
+  {
+    "doc_id": "PCDT-OBESIDADE",
+    "title": "PCDT exemplar - obesidade e cirurgia bariátrica",
+    "source": "PCDT",
+    "category": "elegibilidade e conduta",
+    "version": "1.0",
+    "content": "A cirurgia bariátrica no SUS depende de avaliação multiprofissional, indicação clínica e critérios definidos em diretrizes e fluxos assistenciais.\nNão se trata de procedimento livre demanda.\nA elegibilidade depende de critérios clínicos, acompanhamento e regulação assistencial."
+  },
+  {
+    "doc_id": "PCDT-HIV",
+    "title": "PCDT exemplar - HIV",
+    "source": "PCDT",
+    "category": "elegibilidade e conduta",
+    "version": "1.0",
+    "content": "O cuidado em HIV deve observar protocolo clínico, avaliação profissional e fluxo assistencial organizado.\nTratamento e acompanhamento dependem de confirmação diagnóstica, vínculo assistencial e monitoramento conforme diretrizes.\nO LLM não deve individualizar prescrição nem substituir avaliação da equipe."
+  },
+  {
+    "doc_id": "PORT-CONSOLIDADA",
+    "title": "Portarias Consolidadas do Ministério da Saúde - referência geral",
+    "source": "Portarias Consolidadas",
+    "category": "normativa geral",
+    "version": "1.0",
+    "content": "As Portarias Consolidadas organizam normas sobre direitos, organização da rede, financiamento e programas do SUS.\nA resposta institucional deve remeter à norma consolidada e à pactuação local sempre que houver dependência operacional do ente federativo.\nCitações documentais devem ser precisas e verificáveis."
+  }
+]

@@ -1,0 +1,62 @@
+services:
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile.api
+    container_name: sus-guardrails-api
+    env_file:
+      - .env.example
+    environment:
+      DATABASE_URL: sqlite:////app/data/processed/audit.db
+      OLLAMA_BASE_URL: http://ollama:11434
+      QDRANT_URL: http://qdrant:6333
+    volumes:
+      - ./data:/app/data
+      - ./experiments:/app/experiments
+    ports:
+      - "8000:8000"
+    depends_on:
+      - qdrant
+      - ollama
+
+  ui:
+    build:
+      context: .
+      dockerfile: Dockerfile.ui
+    container_name: sus-guardrails-ui
+    env_file:
+      - .env.example
+    environment:
+      API_BASE_URL: http://api:8000
+    volumes:
+      - ./data:/app/data
+      - ./experiments:/app/experiments
+    ports:
+      - "8501:8501"
+    depends_on:
+      - api
+
+  qdrant:
+    image: qdrant/qdrant:v1.12.1
+    container_name: sus-guardrails-qdrant
+    ports:
+      - "6333:6333"
+    volumes:
+      - qdrant_storage:/qdrant/storage
+
+  ollama:
+    image: ollama/ollama:0.3.12
+    container_name: sus-guardrails-ollama
+    ports:
+      - "11434:11434"
+    volumes:
+      - ollama_data:/root/.ollama
+    healthcheck:
+      test: ["CMD", "ollama", "list"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+
+volumes:
+  qdrant_storage:
+  ollama_data:
