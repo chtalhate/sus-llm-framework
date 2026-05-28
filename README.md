@@ -29,7 +29,7 @@ Usuário -> Streamlit -> FastAPI
 - Ollama (modelo local open-source, ex.: `qwen2.5:7b-instruct`)
 - Docker / Docker Compose
 
-## Como subir
+## Como executar
 
 1. Ajuste variáveis em `.env.example` se quiser.
 2. Suba a stack:
