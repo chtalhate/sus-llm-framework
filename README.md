@@ -1,5 +1,7 @@
 # SUS LLM Framework
 
+Modelos de linguagem natural (LLMs) têm sido progressivamente incorporados ao setor público como ferramentas para otimizar o atendimento e ampliar o acesso a informações. No Sistema Único de Saúde (SUS), essas tecnologias podem apoiar desde orientação ao cidadão até o suporte a processos administrativos e clínicos. A adoção responsável enfrenta um desafio crítico: o efeito das alucinações, caracterizado pela geração de respostas imprecisas, desatualizadas ou sem respaldo em documentos oficiais. Em sistemas de saúde públicos, tais erros podem resultar em orientações inadequadas, solicitações de procedimentos não cobertos, fluxos assistenciais inexistentes e impactos diretos na segurança do paciente, na governança dos serviços e na sustentabilidade financeira. Na prática, mitigar alucinações e assegurar a aderência normativa dos LLMs ao conjunto de protocolos e diretrizes oficiais do SUS é uma condição para a aplicação segura e confiável dessas tecnologias em escala institucional. 
+
 Prova de conceito em Python + Docker para demonstrar, na defesa, o framework da dissertação: mitigação de alucinações em LLMs aplicados às normativas do SUS.
 
 O projeto implementa os quatro módulos descritos na dissertação:
