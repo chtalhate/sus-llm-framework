@@ -217,9 +217,9 @@ Pesquisa em:
 - Saúde Digital
 - Sistemas Auditáveis
 
-Badges:https://www.credly.com/users/talhate/badges#credly
-Linkedin: https://www.linkedin.com/in/talhate/
-Lattes: http://lattes.cnpq.br/6335113208830043
+- **Badges:** https://www.credly.com/users/talhate/badges#credly
+- **LinkedIn:** https://www.linkedin.com/in/talhate/
+- **Lattes:** http://lattes.cnpq.br/6335113208830043
 
 ---
 
