@@ -3,10 +3,10 @@
 POC em Python + Docker para demonstrar, na defesa, o framework da dissertação: mitigação de alucinações em LLMs aplicados às normativas do SUS.
 
 O projeto implementa os quatro módulos descritos na dissertação:
-- **M1 — Base normativa do SUS**: ingestão, segmentação, metadados e recuperação.
-- **M2 — LLM + RAG**: execução das condições **C1**, **C2** e **C3**.
-- **M3 — Verificação normativa pós-geração**: extração de afirmações, verificação de suporte, classificação T1–T6 e revisão.
-- **M4 — Governança e auditoria**: trilha E1–E6, métricas TA/AN/SM/F1/IG, logs e exportação.
+- **M1: Base normativa do SUS**: ingestão, segmentação, metadados e recuperação.
+- **M2: LLM + RAG**: execução das condições **C1**, **C2** e **C3**.
+- **M3: Verificação normativa pós-geração**: extração de afirmações, verificação de suporte, classificação T1-T6 e revisão.
+- **M4: Governança e auditoria**: trilha E1–E6, métricas TA/AN/SM/F1/IG, logs e exportação.
 
 ## Arquitetura
 
