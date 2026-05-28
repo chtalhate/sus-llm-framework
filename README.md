@@ -17,7 +17,7 @@ A pesquisa investiga mecanismos técnicos capazes de:
 - Melhorar rastreabilidade e auditabilidade;
 - Permitir avaliação quantitativa de confiabilidade.
 >
-Dissertação apresentada ao Programa de Pós-Graduação em Engenharia da Controle e Automação do Instituto Federal do Espirito Santo, como requisito parcial para obtenção do títuo de Mestre em Engenharia de Controle e Automação na linha de pesquisa de Sistemas Inteligentes.
+Dissertação apresentada ao Programa de Pós-Graduação em Engenharia da Controle e Automação do Instituto Federal do Espirito Santo, como requisito parcial para obtenção do título de Mestre em Engenharia de Controle e Automação na linha de pesquisa de Sistemas Inteligentes.
 
 ---
 
@@ -39,7 +39,7 @@ FastAPI
 
 ## Módulos Implementados
 
-### M1 — Base Normativa do SUS
+### M1-Base Normativa do SUS
 
 - Ingestão documental;
 - Chunking semântico;
@@ -47,7 +47,7 @@ FastAPI
 - Indexação;
 - Recuperação contextual.
 
-### M2 — LLM + RAG
+### M2-LLM + RAG
 
 Execução experimental em três condições:
 
@@ -55,7 +55,7 @@ Execução experimental em três condições:
 - **C2** → LLM + recuperação normativa;
 - **C3** → LLM + RAG + verificação normativa.
 
-### M3 — Verificação Pós-Geração
+### M3-Verificação Pós-Geração
 
 - Extração de claims;
 - Validação de suporte documental;
@@ -63,7 +63,7 @@ Execução experimental em três condições:
 - Revisão heurística;
 - Análise de consistência.
 
-### M4 — Governança e Auditoria
+### M4-Governança e Auditoria
 
 - Trilha auditável;
 - Métricas de confiabilidade;
@@ -216,6 +216,10 @@ Pesquisa em:
 - LLMs Confiáveis
 - Saúde Digital
 - Sistemas Auditáveis
+
+Badges:https://www.credly.com/users/talhate/badges#credly
+Linkedin: https://www.linkedin.com/in/talhate/
+Lattes: http://lattes.cnpq.br/6335113208830043
 
 ---
 
