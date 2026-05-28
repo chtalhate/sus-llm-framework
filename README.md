@@ -1,6 +1,6 @@
-# SUS Guardrails POC
+# SUS LLM Framework
 
-POC em Python + Docker para demonstrar, na defesa, o framework da dissertação: mitigação de alucinações em LLMs aplicados às normativas do SUS.
+Prova de conceito em Python + Docker para demonstrar, na defesa, o framework da dissertação: mitigação de alucinações em LLMs aplicados às normativas do SUS.
 
 O projeto implementa os quatro módulos descritos na dissertação:
 - **M1: Base normativa do SUS**: ingestão, segmentação, metadados e recuperação.
