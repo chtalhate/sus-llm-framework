@@ -9,7 +9,6 @@ O projeto implementa um pipeline completo de recuperação normativa, geração 
 Este projeto foi desenvolvido como prova de conceito da dissertação:
 
 > **“Confiabilidade de LLMs no SUS: framework para mitigação de alucinações e conformidade normativa.”**
-Apresentada ao PRograma de Pós-Graduação em Engenharia da COntrole e Automação do Instituto Federal do Espirito Santo, como requisito parcial para obtenção do títuo de Mestre em Engenharia de Controle e Automação na linha de pesquisa de Sistemas Inteligentes.
 > 
 A pesquisa investiga mecanismos técnicos capazes de:
 
@@ -17,6 +16,8 @@ A pesquisa investiga mecanismos técnicos capazes de:
 - Aumentar aderência normativa;
 - Melhorar rastreabilidade e auditabilidade;
 - Permitir avaliação quantitativa de confiabilidade.
+>
+Dissertação apresentada ao Programa de Pós-Graduação em Engenharia da Controle e Automação do Instituto Federal do Espirito Santo, como requisito parcial para obtenção do títuo de Mestre em Engenharia de Controle e Automação na linha de pesquisa de Sistemas Inteligentes.
 
 ---
 
