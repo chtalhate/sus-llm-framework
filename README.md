@@ -103,3 +103,8 @@ experiments/
 4. Comparar AN e IG entre as três condições.
 5. Rodar o benchmark das 24 perguntas.
 6. Abrir a trilha de auditoria da última execução.
+
+## ATENçÂO
+Ambiente demonstrativo: Prova de Conceito. Esta aplicação demonstra a integração arquitetural dos módulos do framework. 
+Os indicadores exibidos utilizam métricas simplificadas e não reproduzem os resultados experimentais da dissertação. 
+**Não destinada à orientação assistencial ou normativa de cidadãos**
