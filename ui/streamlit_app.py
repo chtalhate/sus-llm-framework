@@ -12,7 +12,7 @@ st.title('SUS Guardrails POC')
 st.caption('POC da dissertação: C1, C2, C3 + verificação normativa + auditoria')
 
 st.info(
-    "**Ambiente demonstrativo — Prova de Conceito**\n\n"
+    "**Ambiente demonstrativo: Prova de Conceito**\n\n"
     "Esta aplicação demonstra a integração arquitetural dos módulos "
     "do framework. Os indicadores exibidos utilizam métricas "
     "simplificadas e não reproduzem os resultados experimentais "
