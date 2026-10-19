@@ -11,6 +11,15 @@ st.set_page_config(page_title='SUS Guardrails POC', layout='wide')
 st.title('SUS Guardrails POC')
 st.caption('POC da dissertação: C1, C2, C3 + verificação normativa + auditoria')
 
+st.info(
+    "**Ambiente demonstrativo — Prova de Conceito**\n\n"
+    "Esta aplicação demonstra a integração arquitetural dos módulos "
+    "do framework. Os indicadores exibidos utilizam métricas "
+    "simplificadas e não reproduzem os resultados experimentais "
+    "da dissertação. Não destinada à orientação assistencial "
+    "ou normativa de cidadãos."
+)
+
 
 def api_get(path: str):
     return requests.get(f'{API_BASE_URL}{path}', timeout=120).json()
