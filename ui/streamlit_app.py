@@ -19,6 +19,7 @@ st.info(
     "da dissertação. Não destinada à orientação assistencial "
     "ou normativa de cidadãos."
 )
+>>>>>>> 5f64ae7420fe784bcef9d9b2ca1187575b8d8aa5
 
 
 def api_get(path: str):

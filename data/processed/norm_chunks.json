@@ -1,0 +1,410 @@
+[
+  {
+    "chunk_id": "CF88-196-200-001",
+    "text": "Art. 196: a saúde é direito de todos e dever do Estado, garantido mediante políticas sociais e econômicas.",
+    "metadata": {
+      "doc_id": "CF88-196-200",
+      "title": "Constituição Federal de 1988 - Artigos 196 a 200",
+      "source": "Constituição Federal",
+      "category": "direitos e organização",
+      "section": "Art. 196: a saúde é direito de todos e dever do Estado, garantido mediante polít",
+      "version": "1.0"
+    }
+  },
+  {
+    "chunk_id": "CF88-196-200-002",
+    "text": "Art. 197: são de relevância pública as ações e serviços de saúde, cabendo ao poder público dispor sobre sua regulamentação, fiscalização e controle.",
+    "metadata": {
+      "doc_id": "CF88-196-200",
+      "title": "Constituição Federal de 1988 - Artigos 196 a 200",
+      "source": "Constituição Federal",
+      "category": "direitos e organização",
+      "section": "Art. 197: são de relevância pública as ações e serviços de saúde, cabendo ao pod",
+      "version": "1.0"
+    }
+  },
+  {
+    "chunk_id": "CF88-196-200-003",
+    "text": "Art. 198: as ações e serviços públicos de saúde integram uma rede regionalizada e hierarquizada e constituem um sistema único.",
+    "metadata": {
+      "doc_id": "CF88-196-200",
+      "title": "Constituição Federal de 1988 - Artigos 196 a 200",
+      "source": "Constituição Federal",
+      "category": "direitos e organização",
+      "section": "Art. 198: as ações e serviços públicos de saúde integram uma rede regionalizada ",
+      "version": "1.0"
+    }
+  },
+  {
+    "chunk_id": "CF88-196-200-004",
+    "text": "Art. 200: ao SUS compete controlar e fiscalizar procedimentos, produtos e substâncias de interesse para a saúde.",
+    "metadata": {
+      "doc_id": "CF88-196-200",
+      "title": "Constituição Federal de 1988 - Artigos 196 a 200",
+      "source": "Constituição Federal",
+      "category": "direitos e organização",
+      "section": "Art. 200: ao SUS compete controlar e fiscalizar procedimentos, produtos e substâ",
+      "version": "1.0"
+    }
+  },
+  {
+    "chunk_id": "LEI-8080-001",
+    "text": "A Lei 8.080 dispõe sobre as condições para promoção, proteção e recuperação da saúde e sobre a organização e o funcionamento dos serviços correspondentes.",
+    "metadata": {
+      "doc_id": "LEI-8080",
+      "title": "Lei nº 8.080/1990 - Lei Orgânica da Saúde",
+      "source": "Lei 8.080/1990",
+      "category": "organização do sus",
+      "section": "A Lei 8.080 dispõe sobre as condições para promoção, proteção e recuperação da s",
+      "version": "1.0"
+    }
+  },
+  {
+    "chunk_id": "LEI-8080-002",
+    "text": "A assistência terapêutica integral, inclusive farmacêutica, está incluída no campo de atuação do SUS.",
+    "metadata": {
+      "doc_id": "LEI-8080",
+      "title": "Lei nº 8.080/1990 - Lei Orgânica da Saúde",
+      "source": "Lei 8.080/1990",
+      "category": "organização do sus",
+      "section": "A assistência terapêutica integral, inclusive farmacêutica, está incluída no cam",
+      "version": "1.0"
+    }
+  },
+  {
+    "chunk_id": "LEI-8080-003",
+    "text": "O acesso universal e igualitário às ações e serviços de saúde deve observar organização regionalizada e hierarquizada.",
+    "metadata": {
+      "doc_id": "LEI-8080",
+      "title": "Lei nº 8.080/1990 - Lei Orgânica da Saúde",
+      "source": "Lei 8.080/1990",
+      "category": "organização do sus",
+      "section": "O acesso universal e igualitário às ações e serviços de saúde deve observar orga",
+      "version": "1.0"
+    }
+  },
+  {
+    "chunk_id": "DEC-7508-001",
+    "text": "O Decreto 7.508 regulamenta a Lei 8.080 e organiza o planejamento da saúde, a assistência à saúde e a articulação interfederativa.",
+    "metadata": {
+      "doc_id": "DEC-7508",
+      "title": "Decreto nº 7.508/2011",
+      "source": "Decreto 7.508/2011",
+      "category": "regulação e acesso",
+      "section": "O Decreto 7.508 regulamenta a Lei 8.080 e organiza o planejamento da saúde, a as",
+      "version": "1.0"
+    }
+  },
+  {
+    "chunk_id": "DEC-7508-002",
+    "text": "O acesso universal, igualitário e ordenado às ações e serviços de saúde se inicia pelas portas de entrada do SUS e se completa na rede regionalizada e hierarquizada.",
+    "metadata": {
+      "doc_id": "DEC-7508",
+      "title": "Decreto nº 7.508/2011",
+      "source": "Decreto 7.508/2011",
+      "category": "regulação e acesso",
+      "section": "O acesso universal, igualitário e ordenado às ações e serviços de saúde se inici",
+      "version": "1.0"
+    }
+  },
+  {
+    "chunk_id": "DEC-7508-003",
+    "text": "A regulação é elemento essencial para organização do acesso a serviços especializados e hospitalares.",
+    "metadata": {
+      "doc_id": "DEC-7508",
+      "title": "Decreto nº 7.508/2011",
+      "source": "Decreto 7.508/2011",
+      "category": "regulação e acesso",
+      "section": "A regulação é elemento essencial para organização do acesso a serviços especiali",
+      "version": "1.0"
+    }
+  },
+  {
+    "chunk_id": "PNAB-2017-001",
+    "text": "A Atenção Básica é a principal porta de entrada e centro de comunicação da Rede de Atenção à Saúde.",
+    "metadata": {
+      "doc_id": "PNAB-2017",
+      "title": "Política Nacional de Atenção Básica - PNAB",
+      "source": "PNAB",
+      "category": "atenção básica",
+      "section": "A Atenção Básica é a principal porta de entrada e centro de comunicação da Rede ",
+      "version": "1.0"
+    }
+  },
+  {
+    "chunk_id": "PNAB-2017-002",
+    "text": "A UBS deve coordenar o cuidado e, quando necessário, realizar encaminhamento para atenção especializada.",
+    "metadata": {
+      "doc_id": "PNAB-2017",
+      "title": "Política Nacional de Atenção Básica - PNAB",
+      "source": "PNAB",
+      "category": "atenção básica",
+      "section": "A UBS deve coordenar o cuidado e, quando necessário, realizar encaminhamento par",
+      "version": "1.0"
+    }
+  },
+  {
+    "chunk_id": "PNAB-2017-003",
+    "text": "A longitudinalidade e a coordenação do cuidado são atributos centrais da atenção básica.",
+    "metadata": {
+      "doc_id": "PNAB-2017",
+      "title": "Política Nacional de Atenção Básica - PNAB",
+      "source": "PNAB",
+      "category": "atenção básica",
+      "section": "A longitudinalidade e a coordenação do cuidado são atributos centrais da atenção",
+      "version": "1.0"
+    }
+  },
+  {
+    "chunk_id": "CARTA-DIREITOS-001",
+    "text": "Todo cidadão tem direito ao acesso ordenado e organizado aos sistemas de saúde.",
+    "metadata": {
+      "doc_id": "CARTA-DIREITOS",
+      "title": "Carta dos Direitos dos Usuários da Saúde",
+      "source": "Carta dos Direitos dos Usuários da Saúde",
+      "category": "direitos do usuário",
+      "section": "Todo cidadão tem direito ao acesso ordenado e organizado aos sistemas de saúde.",
+      "version": "1.0"
+    }
+  },
+  {
+    "chunk_id": "CARTA-DIREITOS-002",
+    "text": "O usuário tem direito a informação clara sobre os serviços, tratamento adequado, respeito e registro em prontuário.",
+    "metadata": {
+      "doc_id": "CARTA-DIREITOS",
+      "title": "Carta dos Direitos dos Usuários da Saúde",
+      "source": "Carta dos Direitos dos Usuários da Saúde",
+      "category": "direitos do usuário",
+      "section": "O usuário tem direito a informação clara sobre os serviços, tratamento adequado,",
+      "version": "1.0"
+    }
+  },
+  {
+    "chunk_id": "CARTA-DIREITOS-003",
+    "text": "O usuário pode recorrer à ouvidoria e a canais formais de reclamação e manifestação.",
+    "metadata": {
+      "doc_id": "CARTA-DIREITOS",
+      "title": "Carta dos Direitos dos Usuários da Saúde",
+      "source": "Carta dos Direitos dos Usuários da Saúde",
+      "category": "direitos do usuário",
+      "section": "O usuário pode recorrer à ouvidoria e a canais formais de reclamação e manifesta",
+      "version": "1.0"
+    }
+  },
+  {
+    "chunk_id": "RENAME-BASE-001",
+    "text": "A RENAME orienta a seleção de medicamentos ofertados no SUS, observando protocolos, financiamento e organização dos componentes da assistência farmacêutica.",
+    "metadata": {
+      "doc_id": "RENAME-BASE",
+      "title": "RENAME - Relação Nacional de Medicamentos Essenciais",
+      "source": "RENAME",
+      "category": "assistência farmacêutica",
+      "section": "A RENAME orienta a seleção de medicamentos ofertados no SUS, observando protocol",
+      "version": "1.0"
+    }
+  },
+  {
+    "chunk_id": "RENAME-BASE-002",
+    "text": "O fornecimento depende do enquadramento do medicamento e dos critérios clínicos e administrativos aplicáveis.",
+    "metadata": {
+      "doc_id": "RENAME-BASE",
+      "title": "RENAME - Relação Nacional de Medicamentos Essenciais",
+      "source": "RENAME",
+      "category": "assistência farmacêutica",
+      "section": "O fornecimento depende do enquadramento do medicamento e dos critérios clínicos ",
+      "version": "1.0"
+    }
+  },
+  {
+    "chunk_id": "RENAME-BASE-003",
+    "text": "Medicamentos especializados costumam exigir critérios definidos em protocolos específicos.",
+    "metadata": {
+      "doc_id": "RENAME-BASE",
+      "title": "RENAME - Relação Nacional de Medicamentos Essenciais",
+      "source": "RENAME",
+      "category": "assistência farmacêutica",
+      "section": "Medicamentos especializados costumam exigir critérios definidos em protocolos es",
+      "version": "1.0"
+    }
+  },
+  {
+    "chunk_id": "SIGTAP-BASE-001",
+    "text": "O SIGTAP reúne procedimentos, medicamentos, OPM e compatibilidades utilizados para gestão e faturamento no SUS.",
+    "metadata": {
+      "doc_id": "SIGTAP-BASE",
+      "title": "SIGTAP - Tabela de Procedimentos, Medicamentos e OPM do SUS",
+      "source": "SIGTAP",
+      "category": "procedimentos e financiamento",
+      "section": "O SIGTAP reúne procedimentos, medicamentos, OPM e compatibilidades utilizados pa",
+      "version": "1.0"
+    }
+  },
+  {
+    "chunk_id": "SIGTAP-BASE-002",
+    "text": "A presença de um procedimento na tabela não elimina a necessidade de indicação clínica, regulação e organização local do acesso.",
+    "metadata": {
+      "doc_id": "SIGTAP-BASE",
+      "title": "SIGTAP - Tabela de Procedimentos, Medicamentos e OPM do SUS",
+      "source": "SIGTAP",
+      "category": "procedimentos e financiamento",
+      "section": "A presença de um procedimento na tabela não elimina a necessidade de indicação c",
+      "version": "1.0"
+    }
+  },
+  {
+    "chunk_id": "SIGTAP-BASE-003",
+    "text": "A tabela auxilia a identificar cobertura e requisitos operacionais do procedimento.",
+    "metadata": {
+      "doc_id": "SIGTAP-BASE",
+      "title": "SIGTAP - Tabela de Procedimentos, Medicamentos e OPM do SUS",
+      "source": "SIGTAP",
+      "category": "procedimentos e financiamento",
+      "section": "A tabela auxilia a identificar cobertura e requisitos operacionais do procedimen",
+      "version": "1.0"
+    }
+  },
+  {
+    "chunk_id": "SISREG-BASE-001",
+    "text": "O SISREG apoia a regulação do acesso a consultas, exames e internações, conforme protocolos e disponibilidade.",
+    "metadata": {
+      "doc_id": "SISREG-BASE",
+      "title": "Normas gerais de regulação e SISREG",
+      "source": "SISREG",
+      "category": "regulação e acesso",
+      "section": "O SISREG apoia a regulação do acesso a consultas, exames e internações, conforme",
+      "version": "1.0"
+    }
+  },
+  {
+    "chunk_id": "SISREG-BASE-002",
+    "text": "A inserção na fila regulada depende de encaminhamento clínico adequado e critérios de prioridade.",
+    "metadata": {
+      "doc_id": "SISREG-BASE",
+      "title": "Normas gerais de regulação e SISREG",
+      "source": "SISREG",
+      "category": "regulação e acesso",
+      "section": "A inserção na fila regulada depende de encaminhamento clínico adequado e critéri",
+      "version": "1.0"
+    }
+  },
+  {
+    "chunk_id": "SISREG-BASE-003",
+    "text": "Leitos de UTI e outros recursos críticos dependem de avaliação clínica e regulação competente, não de reserva direta pelo usuário.",
+    "metadata": {
+      "doc_id": "SISREG-BASE",
+      "title": "Normas gerais de regulação e SISREG",
+      "source": "SISREG",
+      "category": "regulação e acesso",
+      "section": "Leitos de UTI e outros recursos críticos dependem de avaliação clínica e regulaç",
+      "version": "1.0"
+    }
+  },
+  {
+    "chunk_id": "PCDT-OBESIDADE-001",
+    "text": "A cirurgia bariátrica no SUS depende de avaliação multiprofissional, indicação clínica e critérios definidos em diretrizes e fluxos assistenciais.",
+    "metadata": {
+      "doc_id": "PCDT-OBESIDADE",
+      "title": "PCDT exemplar - obesidade e cirurgia bariátrica",
+      "source": "PCDT",
+      "category": "elegibilidade e conduta",
+      "section": "A cirurgia bariátrica no SUS depende de avaliação multiprofissional, indicação c",
+      "version": "1.0"
+    }
+  },
+  {
+    "chunk_id": "PCDT-OBESIDADE-002",
+    "text": "Não se trata de procedimento livre demanda.",
+    "metadata": {
+      "doc_id": "PCDT-OBESIDADE",
+      "title": "PCDT exemplar - obesidade e cirurgia bariátrica",
+      "source": "PCDT",
+      "category": "elegibilidade e conduta",
+      "section": "Não se trata de procedimento livre demanda.",
+      "version": "1.0"
+    }
+  },
+  {
+    "chunk_id": "PCDT-OBESIDADE-003",
+    "text": "A elegibilidade depende de critérios clínicos, acompanhamento e regulação assistencial.",
+    "metadata": {
+      "doc_id": "PCDT-OBESIDADE",
+      "title": "PCDT exemplar - obesidade e cirurgia bariátrica",
+      "source": "PCDT",
+      "category": "elegibilidade e conduta",
+      "section": "A elegibilidade depende de critérios clínicos, acompanhamento e regulação assist",
+      "version": "1.0"
+    }
+  },
+  {
+    "chunk_id": "PCDT-HIV-001",
+    "text": "O cuidado em HIV deve observar protocolo clínico, avaliação profissional e fluxo assistencial organizado.",
+    "metadata": {
+      "doc_id": "PCDT-HIV",
+      "title": "PCDT exemplar - HIV",
+      "source": "PCDT",
+      "category": "elegibilidade e conduta",
+      "section": "O cuidado em HIV deve observar protocolo clínico, avaliação profissional e fluxo",
+      "version": "1.0"
+    }
+  },
+  {
+    "chunk_id": "PCDT-HIV-002",
+    "text": "Tratamento e acompanhamento dependem de confirmação diagnóstica, vínculo assistencial e monitoramento conforme diretrizes.",
+    "metadata": {
+      "doc_id": "PCDT-HIV",
+      "title": "PCDT exemplar - HIV",
+      "source": "PCDT",
+      "category": "elegibilidade e conduta",
+      "section": "Tratamento e acompanhamento dependem de confirmação diagnóstica, vínculo assiste",
+      "version": "1.0"
+    }
+  },
+  {
+    "chunk_id": "PCDT-HIV-003",
+    "text": "O LLM não deve individualizar prescrição nem substituir avaliação da equipe.",
+    "metadata": {
+      "doc_id": "PCDT-HIV",
+      "title": "PCDT exemplar - HIV",
+      "source": "PCDT",
+      "category": "elegibilidade e conduta",
+      "section": "O LLM não deve individualizar prescrição nem substituir avaliação da equipe.",
+      "version": "1.0"
+    }
+  },
+  {
+    "chunk_id": "PORT-CONSOLIDADA-001",
+    "text": "As Portarias Consolidadas organizam normas sobre direitos, organização da rede, financiamento e programas do SUS.",
+    "metadata": {
+      "doc_id": "PORT-CONSOLIDADA",
+      "title": "Portarias Consolidadas do Ministério da Saúde - referência geral",
+      "source": "Portarias Consolidadas",
+      "category": "normativa geral",
+      "section": "As Portarias Consolidadas organizam normas sobre direitos, organização da rede, ",
+      "version": "1.0"
+    }
+  },
+  {
+    "chunk_id": "PORT-CONSOLIDADA-002",
+    "text": "A resposta institucional deve remeter à norma consolidada e à pactuação local sempre que houver dependência operacional do ente federativo.",
+    "metadata": {
+      "doc_id": "PORT-CONSOLIDADA",
+      "title": "Portarias Consolidadas do Ministério da Saúde - referência geral",
+      "source": "Portarias Consolidadas",
+      "category": "normativa geral",
+      "section": "A resposta institucional deve remeter à norma consolidada e à pactuação local se",
+      "version": "1.0"
+    }
+  },
+  {
+    "chunk_id": "PORT-CONSOLIDADA-003",
+    "text": "Citações documentais devem ser precisas e verificáveis.",
+    "metadata": {
+      "doc_id": "PORT-CONSOLIDADA",
+      "title": "Portarias Consolidadas do Ministério da Saúde - referência geral",
+      "source": "Portarias Consolidadas",
+      "category": "normativa geral",
+      "section": "Citações documentais devem ser precisas e verificáveis.",
+      "version": "1.0"
+    }
+  }
+]
